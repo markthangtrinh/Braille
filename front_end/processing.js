@@ -83,7 +83,7 @@ $(document).ready(function() {
                 for (let idx of item) {
                   console.log("<dbg INDEX OF ITEM>", idx)
                   getDot = $(nameOfCell).find(`td[name=${idx}]`)
-                  getDot.css("color", "#00D5A5");
+                  getDot.css("color", "#0037E2");
                 }
                 currentCell += 1;
                 nameOfCell = '#cell' + currentCell.toString();
@@ -101,7 +101,7 @@ $(document).ready(function() {
               for (let idx of dictValue) {
                 console.log("<dbg INDEX OF ITEM>", idx)
                 getDot = $(nameOfCell).find(`td[name=${idx}]`)
-                getDot.css("color", "#00D5A5");
+                getDot.css("color", "#0037E2");
               }
               currentCell += 1;
               nameOfCell = '#cell' + currentCell.toString();
@@ -123,7 +123,7 @@ $(document).ready(function() {
               for (let idx of item) {
                 console.log("<dbg INDEX OF ITEM>", idx)
                 getDot = $(nameOfCell).find(`td[name=${idx}]`)
-                getDot.css("color", "#00D5A5");
+                getDot.css("color", "#0037E2");
               }
               currentCell += 1;
               nameOfCell = '#cell' + currentCell.toString();
@@ -141,7 +141,7 @@ $(document).ready(function() {
           // fill in new cell
           for (let idx of dictValue) {
             getDot = $(nameOfCell).find(`td[name=${idx}]`)
-            getDot.css("color", "#00D5A5");
+            getDot.css("color", "#0037E2");
           }
           currentCell += 1;
         }     
