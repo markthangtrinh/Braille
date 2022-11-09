@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#pageheader {
+  font-family: font-family: 'Poppins', sans-serif;
+}
+
+table {
+  display:  inline-block;
+  border: 1px solid #ededed;
+  margin-right: 6px;
+  margin-bottom: 7px;
+}
+
+td {
+  padding-right: 14px;
+  text-align: center;
+  color: #ededed;
+}
+
+#message {
+  color: red;
+}
+
+#userinput {
+  font-size: 20px;
+  width: 700px;
+  height: 30px;
+}
