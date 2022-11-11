@@ -93,7 +93,7 @@ $(document).ready(function() {
               dictValue = dictValue.split(" ")[1];
               // every time we use a new cell, check if total cell exceeds 80
               if (currentCell > 80) {
-                $("#message").text("input exceedexceedss limit!");
+                $("#message").text("input exceeds limit!");
               } else {
                 $("#message").text("");
               }
@@ -134,7 +134,7 @@ $(document).ready(function() {
           inNumber = 0;
           // every time we use a new cell, check if total cell exceeds 80
           if (currentCell > 80) {
-            $("#message").text("input exceed limit!");
+            $("#message").text("input exceeds limit!");
           } else {
             $("#message").text("");
           }
