@@ -75,7 +75,7 @@ $(document).ready(function() {
                 console.log("<dbg ITEM OF LIST DICTVALUE>", item)
                 // every time we use a new cell, check if total cell exceeds 80
                 if (currentCell > 80) {
-                  $("#message").text("input exceed limit!");
+                  $("#message").text("input exceeds limit!");
                 } else {
                   $("#message").text("");
                 }
@@ -93,7 +93,7 @@ $(document).ready(function() {
               dictValue = dictValue.split(" ")[1];
               // every time we use a new cell, check if total cell exceeds 80
               if (currentCell > 80) {
-                $("#message").text("input exceed limit!");
+                $("#message").text("input exceedexceedss limit!");
               } else {
                 $("#message").text("");
               }
@@ -115,7 +115,7 @@ $(document).ready(function() {
               console.log("<dbg ITEM OF LIST DICTVALUE>", item)
               // every time we use a new cell, check if total cell exceeds 80
               if (currentCell > 80) {
-                $("#message").text("input exceed limit!");
+                $("#message").text("input exceeds limit!");
               } else {
                 $("#message").text("");
               }
